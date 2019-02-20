@@ -11,6 +11,22 @@
  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
 
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="js/imagesloaded.pkgd.min.js"></script>
+      <script src="js/masonry.pkgd.min.js"></script>
+      <script src="js/index.js"></script>
+ <script>
+$( function( ) {
+ $('.grid').masonry({
+   itemSelector: '.grid-item',
+   columnWidth: '.grid-sizer',
+   percentPosition: true
+
+ });
+});
+
+ </script>
 </head>
 
 <body>
@@ -64,21 +80,5 @@
 
 
 </body>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-     <script src="js/imagesloaded.pkgd.min.js"></script>
-     <script src="js/masonry.pkgd.min.js"></script>
-     <script src="js/index.js"></script>
-<script>
-
-$('.grid').masonry({
-  itemSelector: '.grid-item',
-  columnWidth: '.grid-sizer',
-  percentPosition: true
-
-});
-
-
-</script>
 
 </html>
